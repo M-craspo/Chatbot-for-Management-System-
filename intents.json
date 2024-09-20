@@ -1,0 +1,208 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up" , "Good morning" , "Good evening" , "hello" , "hey" , "what's up"],
+         "responses": ["Hello!", "Good to see you!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "Thanks",
+        "patterns": ["thank you ", "stop", "bye", "grateful" , "appreciate it "],
+        "responses": ["Thank You ", "Good to see you!", "happy to help you! "],
+        "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day","bye","i have to go","gotta go"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?", "who are you?"],
+         "responses": ["You can call me Admin .", "I'm Admin !", "I'm Admin ."],
+         "context_set": ""
+        },
+        {"tag": "help",
+         "patterns": ["Id like to ask something", "what can you do", "can you help me?", "can i tell you something"],
+         "responses": ["I'm here to help you!", "I can help you with whatever you tell me to.","I'd like to","Feel free to tell me anything"],
+         "context_set": ""
+        },
+         {"tag": "Summer",
+          "patterns": [
+            "How are the fees for the summer course calculated?",
+            "What are the subjects of the summer course?",
+            "What is the hourly rate for the summer course ?",
+            "When does the summer course start and when does it end?",
+            "How many credit hours can I register for in the summer?",
+            "How do I register for summer courses?",
+            "Does the summer course include midterms and year-work?",
+            "What is the duration of the summer?",
+            "What is the deadline for paying the summer fees?",
+            "Do the grades from the summer courses affect the GPA along with the final grades?"
+          ],
+          "responses": [
+            "The expenses of the summer course are determined after registration.",
+            "No one knows this information is announced on the website during registration.",
+            "The expenses of the summer course are determined after registration.",
+            "The summer course starts in mid-July and lasts for 7 weeks.",
+            "The summer course consists of 9 hours; it cannot exceed 9.",
+            "You can register online through the university's website(https://o6u.edu.eg). If the university's website is down, you can register manually by submitting paperwork to the university.",
+            "The summer course includes lectures, sessions, yearly assignments, midterm exams, and practical work.",
+            "The duration of the summer course is 7 weeks",
+            "The deadline for payment of the summer course is determined after registration opens",
+            "Yes, it does affect the GPA."
+          ],
+         "context_set": ""
+       },
+        {"tag": "gpa",
+          "patterns": [
+            "If someone isn't carrying any courses and wants to register for courses in the summer course in order to finish early, what are the conditions, and how will the GPA be calculated?", 
+            "After the second semester of the first year, do I need to have a GPA higher than 2?", 
+            "How is the grading of courses calculated? For example, if I am short by seven points in a subject, will I receive an A grade? And if my GPA average is 2.7, does that mean I received a Good grade?", 
+            "Do I need an excellent degree to get into computer science or not?", 
+            "I want to know what my GPA estimate is",
+            "How do we calculate the GPA?",
+            "If you're carrying more than 3 courses, i might have to repeat the year ?",
+            "How does the GPA increase?"
+
+          ],
+          "responses": [
+            "you can go to your academic advisor; they will help you with this matter",
+            "Yes your gpa have to be above 2.0",
+            "You can go to your acadamic advisor to help you ",
+            "you can go to your academic advisor; they will help you with this matter",
+            "It depends on your college descision",
+            "It depends on your college descision",
+            "The GPA is calculated by dividing the total grade points earned by the total credit hours enrolled.",
+            "No, of course,The subject you pass won't be retaken unless you want to improve your grade in it.",
+            "The GPA increases when you take the courses you are enrolled in at summer course ."
+          ],
+         "context_set": ""
+        },
+        {"tag": "hours",
+          "patterns": [
+            "What is the number of hours for each subject ?",
+            "If i drop a course within two hours and haven't registered it for the summer course, what will happen in terms of fees?",
+            "What is the allowed number of hours per student?",
+            "How do I register for the semester?"
+          ],
+          "responses": [
+            "It depends on the subject",
+            "You can go to your acadamic advisor to help you ",
+            "Each student is allowed to register for 18 credit hours if their GPA is above 2. If the GPA is below 2, they are only allowed to register for 12 credit hours.",
+            "You can register online through the university's website(https://o6u.edu.eg). If the university's website is down, you can register manually by submitting paperwork to the university."
+          ],
+         "context_set": ""
+        },
+        {"tag": "Departments",
+          "patterns": [
+          
+            "What are the departments of the college?",
+            "What are the admission requirements for any department?"
+
+          ],
+          "responses": [
+            "We have 4 departments CS, IS, AI and, Network",
+            "By filling out preferences for each student and each department, a certain number of students are allocated to each department. Priority is given to GPA, and when the quota is reached, registration for the department closes."
+         ],
+         "context_set": ""
+       },
+  {
+    "tag": " Courses",
+    "patterns": [
+      "If I drop more than 3 courses, will I repeat the year or will they be transferred with me?"
+    ],
+    "responses": [ "No, of course,The subject you pass won't be retaken unless you want to improve your grade in it." ],
+    "context_set": ""
+  },
+  {
+    "tag": " Exams & Grades",
+    "patterns": [
+      "I'm in the first level of the computer science college. I wanted to know when the practical exam will be?",
+      "When will we receive the schedule for the practical exams?",
+      "When will the grades for the year's assignments in all subjects be released?",
+      "I want the final exams for the discrete mathematics course"
+    ],
+    "responses": [
+      "Follow the university's pages on Facebook, Telegram, or WhatsApp.",
+      "Follow the university's pages on Facebook, Telegram, or WhatsApp.",
+      "Follow the university's pages on Facebook, Telegram, or WhatsApp.",
+      "You can visit the drive folders(https://drive.google.com/drive/folders/1zkw3EbY_JRutU2XAlVD3JJBpRgS2tW97)"
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "Military",
+    "patterns": [
+      "When is military education taken?",
+     "What will happen if I don't complete military education?"
+    ],
+    "responses": [
+      "Military education applications are submitted through the Student Affairs Office, and payments are made through them as well.",
+      "You won't be able to receive your graduation certificate unless you complete military education."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "Appeals",
+        "patterns": [
+          "When will the appeals open?",
+          "What is the price of appealing?",
+          "When does the appeal period end?"
+        ],
+    "responses": [ "You can follow the university's pages on Facebook, Telegram, or WhatsApp to know all this info." ],
+    "context_set": ""
+  }, 
+        {"tag": "Results",
+          "patterns": [
+            "When will the result appear",
+            "How can I obtain the result?",
+            "How do I get the result from the website?"
+          ],
+          "responses": [
+            "Follow the university's pages on Facebook, Telegram, or WhatsApp.",
+            "You can register online through the university's website(https://o6u.edu.eg).",
+            "By accessing the university's website, then clicking on login, followed by credit hours, then pre-registration."
+          ],
+            "context_set": ""
+       },
+        {"tag": "Sport Activity ",
+          "patterns": [
+            "I want to apply for the football team.",
+            "I want to apply for the basketball team.",
+            "I want to apply for the Tennis team.",
+            "I want to know about the sports activities at the university.",
+            "When will the squad play"
+          ],
+         "responses": ["Follow Dr. Ahmed Emad, the responsible youth sponsor at the college."],
+         "context_set": ""
+       },
+        {"tag": "Acadamic advisor",
+          "patterns": [
+            "Who is the academic advisor?"
+          ],
+          "responses": [
+            "The academic advisor for the first level is Dr. Sami Al-Muqaddam,for the second level is Dr. Mamdouh, for the third level is Dr. Mohamed Abdul Sattar, and for the fourth level is Dr. Ahmed Emad."
+          ],
+         "context_set": ""
+       },
+        {"tag": "Technical Support", 
+         "patterns": ["I have a problem"],
+         "responses": ["Go to the secretary at the college from 9:00 AM to 4:00 PM."],
+         "context_set": ""
+       },
+       {"tag": "acadamic questions",
+        "patterns": [
+          "When will the new academic year start?",
+          "What is the conditions for the scholarship continuation?",
+          "I need to know the schedule at least a week or two before the start of the semester.",
+          "I need a seminar that discusses each department in the college, introduces us to the study fields, the areas that will be focused on, and the career opportunities afterwards."
+        ],
+        "responses": [
+          "Follow the university's page where the annual agenda is published.",
+          "You can go to your acadamic advisor to help you ",
+          "Follow the university's pages on Facebook, Telegram, or WhatsApp.",
+          "Follow the university's pages on Facebook, Telegram, or WhatsApp."
+
+        ]
+      }
+        
+       ]
+}
